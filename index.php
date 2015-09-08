@@ -10,10 +10,10 @@
 
    if(!isset($login_session))
       {
-      header("location: " . MEDIA_URL);
+      header("location: login.php ");
       }
    else
       {
-      header("location: http://download.davideo.info");
+      header("location: " . MEDIA_URL);
       }
 ?>
